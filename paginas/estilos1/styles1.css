@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(230, 2, 2, 0.5) 0%, rgba(19, 116, 145, 0.5) 100%), url(../imagenes1/t1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.head{
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.navegacion {
+    width: 100%;
+    margin: 0px auto;
+    background: rgba(red, green, blue, alpha);
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #db0909;
+    transition: all .3s;
+}
+
+/*submenu*/
+
+.submenu{
+    position: absolute;
+    background: #21075e;
+    width: 120%;
+    display: none;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    display: block;
+}
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/*blog*/
+
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #21075e;
+    margin-bottom: 40px;
+    font-size: 45px;
+}
+
+.contenedor-blog{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.checklist-blog{
+    width: 45%;
+}
+
+.blog{
+    margin-bottom: 20px;
+}
+
+.n-blog{
+    margin-bottom: 7px;
+    color: #21075e;
+}
+
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top, #db0909 0%, #2b9bb8 100%);
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+}
